@@ -43,7 +43,7 @@
   },
   {
     "sequence": 4,
-    "received_at": 126,
+    "received_at": 123,
     "source": "south",
     "facts": {
       "kind": "revoke_proxy",
