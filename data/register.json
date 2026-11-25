@@ -1,0 +1,52 @@
+{
+  "parties": {
+    "north": {
+      "vote": 2,
+      "cap_cents": 35000
+    },
+    "south": {
+      "vote": 2,
+      "cap_cents": 30000
+    }
+  },
+  "sections": {
+    "S-a": "north",
+    "S-b": "south",
+    "pond": "joint"
+  },
+  "terms": [
+    {
+      "id": "T1",
+      "subject": "S-a",
+      "work": "inspect",
+      "version": 1
+    },
+    {
+      "id": "T2",
+      "subject": "pond",
+      "work": "maintain",
+      "version": 1,
+      "shares": {
+        "north": 18000,
+        "south": 15000
+      }
+    }
+  ],
+  "proxy": {
+    "rep": "agent-d",
+    "for": "member-s3",
+    "enabled_terms": [
+      "T2"
+    ],
+    "valid_to": 125
+  },
+  "committed": {
+    "T1": {
+      "owner": "shift-a",
+      "slot": [
+        140,
+        160
+      ]
+    }
+  }
+}

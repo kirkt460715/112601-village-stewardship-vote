@@ -1,0 +1,64 @@
+[
+  {
+    "sequence": 1,
+    "received_at": 90,
+    "source": "north",
+    "facts": {
+      "kind": "vote",
+      "term": "T1",
+      "version": 1,
+      "members": [
+        "n1",
+        "n2"
+      ]
+    }
+  },
+  {
+    "sequence": 2,
+    "received_at": 100,
+    "source": "south",
+    "facts": {
+      "kind": "vote",
+      "term": "T2",
+      "version": 1,
+      "members": [
+        "s1",
+        "agent-d"
+      ]
+    }
+  },
+  {
+    "sequence": 3,
+    "received_at": 115,
+    "source": "north",
+    "facts": {
+      "kind": "amendment",
+      "term": "T2",
+      "version": 2,
+      "shares": {
+        "north": 16000,
+        "south": 32000
+      }
+    }
+  },
+  {
+    "sequence": 4,
+    "received_at": 126,
+    "source": "south",
+    "facts": {
+      "kind": "revoke_proxy",
+      "rep": "agent-d"
+    }
+  },
+  {
+    "sequence": 5,
+    "received_at": 148,
+    "source": "patrol",
+    "facts": {
+      "kind": "ack",
+      "term": "T1",
+      "shift": "shift-a",
+      "performed": true
+    }
+  }
+]

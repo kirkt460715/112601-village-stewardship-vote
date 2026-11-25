@@ -1,0 +1,23 @@
+[
+  {
+    "action": "read-signature",
+    "desk": "south-desk",
+    "fact": {
+      "term": "T2",
+      "version": 1,
+      "received_at": 140,
+      "signed_at": 105
+    },
+    "unavailable_first": false
+  },
+  {
+    "action": "read-duty",
+    "desk": "north-desk",
+    "fact": {
+      "term": "T1",
+      "shift": "shift-a",
+      "accepted": true
+    },
+    "unavailable_first": false
+  }
+]
