@@ -2,11 +2,21 @@
   "parties": {
     "north": {
       "vote": 2,
-      "cap_cents": 35000
+      "cap_cents": 35000,
+      "members": [
+        "n1",
+        "n2",
+        "n3"
+      ]
     },
     "south": {
       "vote": 2,
-      "cap_cents": 30000
+      "cap_cents": 30000,
+      "members": [
+        "s1",
+        "s2",
+        "member-s3"
+      ]
     }
   },
   "sections": {
